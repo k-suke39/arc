@@ -1,3 +1,6 @@
 [submodule "arc_front"]
 	path = arc_front
 	url = git@github.com:k-suke39/arc_front.git
+[submodule "arc_back"]
+	path = arc_back
+	url = git@github.com:k-suke39/arc_back.git
