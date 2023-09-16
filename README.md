@@ -1,8 +1,8 @@
-![arc](/assets/arc.png 'Arc')
+![arc](/assets/currentUser.png 'Arc')
 
 ## 概要
 
-Arc は環境構築不要、Ruby on Rails の O/R マッパーである ActiveRecord の学習サービスです。
+current_user は環境構築不要、Ruby on Rails の O/R マッパーである ActiveRecord の学習サービスです。
 
 ## 主な機能
 
