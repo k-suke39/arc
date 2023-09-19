@@ -1,4 +1,8 @@
-![arc](/assets/currentUser.png 'Arc')
+![arc](/assets/currentuser.png 'Arc')
+
+## サービス URL
+
+https://current-user.vercel.app/
 
 ## 概要
 
@@ -6,35 +10,19 @@ current_user は環境構築不要、Ruby on Rails の O/R マッパーである
 
 ## 主な機能
 
+- ログイン機能
+- ログアウト機能
+- 問題選択機能
+- ActiveRecord 実行機能
+- ActiveRecord 実行時にタブ切り替え機能
+- ActiveRecord 判定機能
+
 ## 使用技術
 
-### フロントエンド
-
-- React
-- Next.js
-- TypeScript
-- TailwindCSS
-
-### バックエンド
-
-- Ruby on Rails（API モード）
-
-### インフラ
-
-- Vercel
-- Render
-
-### CI/CD
-
-- Github Actions
-
-### 環境構築
-
-- Docker
-- docker-compose
-
-## インフラ構成図
-
-## ER 図
-
-## 画面遷移図
+| カテゴリ       | 技術                                          |
+| -------------- | --------------------------------------------- |
+| フロントエンド | TypeScript 5.2.2, React 18.2, Next.js 13.4    |
+| バックエンド   | Ruby 3.2.2, Ruby on Rails 7.0.8（API モード） |
+| 環境構築       | Docker, docker-compose                        |
+| CI/CD          | Github Actions                                |
+| インフラ       | Vercel, Render                                |
