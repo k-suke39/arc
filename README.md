@@ -23,6 +23,8 @@ current_user は環境構築不要、Ruby on Rails の O/R マッパーである
 | :------------- | :-------------------------------------------- |
 | フロントエンド | TypeScript 5.2.2, React 18.2, Next.js 13.4    |
 | バックエンド   | Ruby 3.2.2, Ruby on Rails 7.0.8（API モード） |
+| データベース   | PostgreSQL                                    |
+| 認証           | NextAuth.js                                   |
 | 環境構築       | Docker, docker-compose                        |
 | CI/CD          | Github Actions                                |
 | インフラ       | Vercel, Render                                |
