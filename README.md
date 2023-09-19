@@ -1,4 +1,4 @@
-![arc](/assets/currentuser.png 'Arc')
+![currentuser](/assets/current.png 'currentuser')
 
 ## サービス URL
 
