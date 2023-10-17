@@ -6,8 +6,7 @@
 
 https://current-user.vercel.app/
 
-※ レスポンシブ未対応です。
-※ Google Chrome での利用を推奨しています。
+※ レスポンシブ未対応です。Google Chrome での利用を推奨しています。
 
 ## サービス概要
 
