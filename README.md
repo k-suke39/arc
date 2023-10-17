@@ -60,10 +60,6 @@ https://current-user.vercel.app/
 | [![Image from Gyazo](https://i.gyazo.com/7f40129ab51ba226d9344a7b7aac0ce7.gif)](https://gyazo.com/7f40129ab51ba226d9344a7b7aac0ce7) | [![Image from Gyazo](https://i.gyazo.com/08890496d42bf718de523db31c4abc8f.gif)](https://gyazo.com/08890496d42bf718de523db31c4abc8f) |
 | OGP を設定しています。                                                                                                              | NextAuth.js を採用し、手軽な認証体験を実現しています。                                                                              |
 
-# インフラ構成
-
-[![Image from Gyazo](https://i.gyazo.com/21e3ebb19efd67bb5a6cba49d93685b1.png)](https://gyazo.com/21e3ebb19efd67bb5a6cba49d93685b1)
-
 # 使用技術
 
 | カテゴリ       | 技術                                                                        |
@@ -103,6 +99,10 @@ https://current-user.vercel.app/
 ### インフラ
 
 デプロイ先である`Render`、`Github Actions`等は導入コストが低かったため、`Vercel`に関しては`Next.js`とのデプロイ時の相性が良いこと、ブランチごとに新しいドメインでデプロイも行ってくれる為、`build`時のエラーがわかりやすいことからも今回採用に至りました。
+
+# インフラ構成
+
+[![Image from Gyazo](https://i.gyazo.com/21e3ebb19efd67bb5a6cba49d93685b1.png)](https://gyazo.com/21e3ebb19efd67bb5a6cba49d93685b1)
 
 # 工夫したポイント
 
