@@ -1,4 +1,4 @@
-![currentuser](/assets/current.png 'currentuser')
+![currentuser](/assets/currentuser.png 'currentuser')
 
 # サービス概要
 
