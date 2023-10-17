@@ -105,42 +105,11 @@ https://current-user.vercel.app/
 
 デプロイ先である`Render`、`Github Actions`等は導入コストが低かったため、`Vercel`に関しては`Next.js`とのデプロイ時の相性が良いこと、ブランチごとに新しいドメインでデプロイも行ってくれる為、`build`時のエラーがわかりやすいことからも今回採用に至りました。
 
-### 主要ライブラリ
-
-#### monaco-editor
-
-表示させるエディタには、`monaco-editor`もしくは`codemirror`の選択肢がありました。調査すると、以下の違いがわかりました。
-今回はエディタをカスタマイズする事での利点はあまりなかった為、軽量な`monaco-editor`を採用しました。
-| パッケージ | カスタマイズ性 |バンドルサイズ |
-| :------------- | :-------------------------------------------- |:-------------------------------------------- |
-| monaco-editor | 低い、シンプル|軽い|
-| code-mirror | 高い |重い|
-
-https://www.npmjs.com/package/@monaco-editor/react
-
-https://www.npmjs.com/package/codemirror
-
-#### next-auth
-
-https://next-auth.js.org/
-
-#### react-hot-toast
-
-https://react-hot-toast.com/
-
-#### framer-motion
-
-https://www.framer.com/motion/
-
 # 工夫したポイント
 
 ## 1.パフォーマンス
 
 キャッシュ管理ライブラリの 1 つである**SWR**を採用し、レコード取得のパフォーマンスを意識しました。**SWR** は、まずキャッシュからデータを返し（stale）、次にフェッチリクエストを送り（revalidate）、最後に最新のデータを持ってくるという**Stale While Revalidate**の略称です。
-
-https://swr.vercel.app/ja
-
-https://blog.jxck.io/entries/2016-04-16/stale-while-revalidate.html
 
 `axios`や`fetch`に比べて処理速度が速く、キャッシュを再利用することによりデータを即時反映できることから、サクサクとしたページ表示を実現する事ができます。問題がトライアル編、初級編、中級編とそれぞれありますが、**一度のリクエストで該当の問題群を全て取得してくること**で、**2 回目以降は全てキャッシュからデータを表示させる**ように設計しました。
 
@@ -167,10 +136,6 @@ const { data, error } = useSWR(
 
 今回、UI/UX、セキュリティ面を考慮し、`NextAuth.js`でのログイン機能を実装しました。
 `OAuth`ベースの`Next.js`向けに作られたライブラリで、`Google`や`Twitter`、`GitHub`など、認証やセッション管理を手軽に行うことができます。
-
-https://next-auth.js.org/
-
-https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be
 
 `PagesRouter`向けに作られたドキュメントなので、`AppRouter`向けのドキュメントがなく調査に少し苦戦しました。
 
