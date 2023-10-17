@@ -168,6 +168,8 @@ const NextAuthProvider = ({ children }: { children: ReactNode }) => {
 export default NextAuthProvider;
 ```
 
+[![Image from Gyazo](https://i.gyazo.com/08890496d42bf718de523db31c4abc8f.gif)](https://gyazo.com/08890496d42bf718de523db31c4abc8f)
+
 とはいえ、セキュリティ周りが`OAuth`ベースで保証されており、ユーザ側としても手軽にログインすることができ、**離脱率を下げる上で効果的な選択**だと感じました。
 
 ## 3.SQL 変換機能について
@@ -205,6 +207,8 @@ export default NextAuthProvider;
 # クエリを即時発行するように調整
   result = result.to_a if result.is_a?(ActiveRecord::Relation)
 ```
+
+[![Image from Gyazo](https://i.gyazo.com/6513e3501a3720d1f6abf8fe51bc61e7.gif)](https://gyazo.com/6513e3501a3720d1f6abf8fe51bc61e7)
 
 # 今後の開発について
 
