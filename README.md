@@ -60,6 +60,11 @@ https://current-user.vercel.app/
 | [![Image from Gyazo](https://i.gyazo.com/7f40129ab51ba226d9344a7b7aac0ce7.gif)](https://gyazo.com/7f40129ab51ba226d9344a7b7aac0ce7) | [![Image from Gyazo](https://i.gyazo.com/08890496d42bf718de523db31c4abc8f.gif)](https://gyazo.com/08890496d42bf718de523db31c4abc8f) |
 | OGP を設定しています。                                                                                                              | NextAuth.js を採用し、手軽な認証体験を実現しています。                                                                              |
 
+| コード実行時に結果タブがアクティブに遷移                                                                                            | Active Record の説明用モーダル                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [![Image from Gyazo](https://i.gyazo.com/8a06fa20c7de5f92dd0b818e4cc70b0b.gif)](https://gyazo.com/8a06fa20c7de5f92dd0b818e4cc70b0b) | [![Image from Gyazo](https://i.gyazo.com/dcf5471f0f40a4b58736e490161ae365.gif)](https://gyazo.com/dcf5471f0f40a4b58736e490161ae365) |
+| UX を考慮しての実装です。                                                                                                           | ActiveRecord の基礎を説明することで理解しやすくしています。                                                                         |
+
 # 使用技術
 
 | カテゴリ       | 技術                                                                        |
